@@ -14,6 +14,8 @@ set(IGNORED_WARNINGS "-Wno-long-long -Wno-variadic-macros")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -Wall -pedantic ${IGNORED_WARNINGS}")
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
+include(VersionHelper)
+include(ProjectHelper)
 include(BuildDeps)
 
 #:find_package(Boost 1.40 REQUIRED COMPONENTS iostreams program_options system filesystem)
