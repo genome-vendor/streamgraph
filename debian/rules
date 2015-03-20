@@ -13,7 +13,7 @@ override_dh_auto_build:
 
 override_dh_auto_install:
 	mkdir -p $(DEB_DIR)/usr/bin
-	install -m 755 bin/streamgraph $(DEB_DIR)/usr/bin/streamgraph$(VERSION)
+	install -m 755 obj-x86_64-linux-gnu/bin/streamgraph $(DEB_DIR)/usr/bin/streamgraph$(VERSION)
 
 override_dh_strip:
 	echo "Do not create a *dbgsym*.ddeb package."
