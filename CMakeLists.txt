@@ -35,3 +35,5 @@ add_subdirectory(src/lib/utility)
 add_subdirectory(src/exe)
 
 add_subdirectory(test)
+
+include(PackageInfo.cmake)
