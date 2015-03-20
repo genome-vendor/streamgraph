@@ -1,0 +1,11 @@
+Source: streamgraph0.1
+Section: science
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Maintainer: TGI <genome-dev@genome.wustl.edu>
+Homepage: https://github.com/tabbott/streamgraph
+
+Package: streamgraph0.1
+Architecture: amd64
+Depends:
+Description: library/utility for creating process streams on Linux (pipes, fanout).
